@@ -18,6 +18,7 @@
         "test.emulator.web": "wdio test/configs/sauce.emulator.web.conf.js",
         "test.simulator.web": "wdio test/configs/sauce.simulator.web.conf.js",
         "test.real.android": "wdio test/configs/sauce.real.android.conf.js",
+        "test.real.ios": "wdio test/configs/sauce.real.ios.conf.js",
         "test.real.web": "wdio test/configs/sauce.real.web.conf.js",
         "test.local": "wdio test/configs/local.conf.js"
     }
