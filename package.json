@@ -14,7 +14,8 @@
         "@wdio/spec-reporter": "^7.26.0"
     },
     "scripts": {
-        "test.saucelabs": "wdio test/configs/sauce.conf.js",
+        "test.desktop.saucelabs": "wdio test/configs/sauce.desktop.conf.js",
+        "test.emulator.web": "wdio test/configs/sauce.emulator.web.conf.js",
         "test.local": "wdio test/configs/local.conf.js"
     }
 }
