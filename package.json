@@ -16,6 +16,7 @@
     "scripts": {
         "test.desktop.saucelabs": "wdio test/configs/sauce.desktop.conf.js",
         "test.emulator.web": "wdio test/configs/sauce.emulator.web.conf.js",
+        "test.emulator.real": "wdio test/configs/sauce.emulator.real.conf.js",
         "test.simulator.web": "wdio test/configs/sauce.simulator.web.conf.js",
         "test.real.android": "wdio test/configs/sauce.real.android.conf.js",
         "test.real.ios": "wdio test/configs/sauce.real.ios.conf.js",
