@@ -14,6 +14,7 @@
         "@wdio/spec-reporter": "^7.26.0"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "test.saucelabs": "wdio test/configs/sauce.conf.js",
+        "test.local": "wdio test/configs/local.conf.js"
     }
 }
