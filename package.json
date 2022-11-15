@@ -17,6 +17,7 @@
         "test.desktop.saucelabs": "wdio test/configs/sauce.desktop.conf.js",
         "test.emulator.web": "wdio test/configs/sauce.emulator.web.conf.js",
         "test.simulator.web": "wdio test/configs/sauce.simulator.web.conf.js",
+        "test.real.web": "wdio test/configs/sauce.real.web.conf.js",
         "test.local": "wdio test/configs/local.conf.js"
     }
 }
